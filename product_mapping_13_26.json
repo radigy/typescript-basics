@@ -1,0 +1,909 @@
+curl --location --request PUT 'http://pos-partner-api.dev.kitopiconnect.com/api/v3/brands/20c1ef6e-3f78-4655-85d3-4b6fb7b6f31e/menus/4f260629-4b69-4ebd-ab9d-788a88f70566/product-mapping' \
+--header 'accept: */*' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "productMappings": [
+        {
+            "type": "ITEM",
+            "externalId": {
+                "menuObjectId": "c16f6d43-a85d-4045-9f11-9ab531fc6acf"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1180447",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "ITEM",
+            "externalId": {
+                "menuObjectId": "9908b0ef-8d13-4aa0-963f-b21f6c8bc90c"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1011834",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "ITEM",
+            "externalId": {
+                "menuObjectId": "e20221dc-8cdd-44fe-aac7-c844565bc138",
+                "variantId": "ce816a49-dea2-4d6e-ac98-71763196c317_e20221dc-8cdd-44fe-aac7-c844565bc138"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1180174",
+                "variantValueName": "S"
+            }
+        },
+        {
+            "type": "ITEM",
+            "externalId": {
+                "menuObjectId": "e20221dc-8cdd-44fe-aac7-c844565bc138",
+                "variantId": "1931ed16-02e4-4c2b-a7ba-1d37a6deba65_e20221dc-8cdd-44fe-aac7-c844565bc138"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1180186",
+                "variantValueName": "LC"
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "212608d0-52b8-4107-962f-397f29d514d0"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1014546",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "d003006c-128f-47f0-a9c5-ae7f02bb8b99"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080224",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "3d06682f-f5c7-43aa-bf85-ec84942e4adb"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080194",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "ce816a49-dea2-4d6e-ac98-71763196c317_6ab8c523-fb9d-4fcc-8d39-2c82dce04ed6"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1018100",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "1931ed16-02e4-4c2b-a7ba-1d37a6deba65_6ab8c523-fb9d-4fcc-8d39-2c82dce04ed6"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1010668",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "ce816a49-dea2-4d6e-ac98-71763196c317_17b8c073-2d0c-4335-a7fc-d08bd0a425aa"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080196",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "1931ed16-02e4-4c2b-a7ba-1d37a6deba65_17b8c073-2d0c-4335-a7fc-d08bd0a425aa"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1018112",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "ce816a49-dea2-4d6e-ac98-71763196c317_19728df5-83e4-4ca8-a633-95e5f151435f"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1015592",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "1931ed16-02e4-4c2b-a7ba-1d37a6deba65_19728df5-83e4-4ca8-a633-95e5f151435f"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1120134",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "ce816a49-dea2-4d6e-ac98-71763196c317_36d454ed-72c6-441a-8fe3-1132f1214997"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080147",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "1931ed16-02e4-4c2b-a7ba-1d37a6deba65_36d454ed-72c6-441a-8fe3-1132f1214997"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080165",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "4c036b59-9c63-4f0c-a534-68a26c6c04dc"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080216",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "dc3d149a-7230-445e-b277-65727b3a038b"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1014562",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "95b551fd-5139-46e2-8e5b-3410f7e099e7"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1010666",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "a08c5d20-22c7-465b-a55d-ca568083b61a"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1017479",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "388d5744-9588-49fd-890d-9bf5ac149dac"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1014563",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "a41e4549-4b99-471d-b200-7cf7292b508e"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080223",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "f817556a-2fe2-49e5-bb60-6ab39d53c306"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080188",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "1bc4fb2c-7419-4f5d-b37a-a43fd21a761c"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080153",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "3d435d22-a9d0-4dc4-87aa-7f2267624f06"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1015590",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "3a7b18cb-0293-492b-aaab-9c3e867065f8"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1015495",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "2bc9de30-80eb-487f-a0b5-79c631c3df62"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1018095",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "838eb579-fd96-4859-8687-dd9d0e5d8ee4"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080244",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "1a27265a-4c39-405c-858c-54b5c622070c"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080238",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "1d0051ce-8f9d-4ad0-8757-5a23087d5ef2"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1015031",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "2cb924e0-2792-4de6-a18b-2b1a3a195742"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1010667",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "57b2bb39-4769-4d5f-80c5-b47882432e9c"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080139",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "49dc867b-9333-4429-9022-6bb20e30e9b4"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1018103",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "eae7b61b-e6b4-43ec-8ac0-3b3f461a55f4"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080230",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "bed5bc47-96c4-444b-aee5-a5d97563dee8"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080140",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "9deb4426-b977-4dc4-884e-96b17ecac89c"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1018180",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "a7ee8385-9e40-43f3-8468-876e811aa4cb"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080154",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "32bb2b79-645c-44f6-8abd-f29fa8a3ceef"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1018185",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "3f72656c-8680-48a8-af4b-1d4285491250"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1015032",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "adbfad3b-295b-46ab-b1cf-9f2520e03549"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1015497",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "ed1f2cfb-19fc-4df0-88ef-7a5054effec9"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080145",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "97160788-685e-455c-8d45-7a3ef79f62c4"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1017476",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "93a607bb-cb5f-46e1-87f0-a1b68c464c74"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1015496",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "8cf5a986-1834-4186-a5c6-67013dd4574e"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1014544",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "06b27133-277f-4a59-8d65-319202722900"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080235",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "d694ed45-9a7f-44a9-8ea2-ab3139f1eaf2"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080242",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "7a525d10-7e48-4bc4-a8a9-c213900acce5"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080222",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "8eb920c6-1f42-4099-87a9-07cf318fa945"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080159",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "46e35fea-b138-4574-bca3-a5c6a7ec835a"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080138",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "d32e6ed0-ea31-447d-bf2a-06d6155d9c37"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080203",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "2793b82f-6603-4a11-b969-853c9b9a7627"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1015500",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "c689f517-24de-46ef-9e06-548c172b51f4"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1180178",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "beffd153-f3b8-404b-8921-0ccb6fcfbcbc"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1018099",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "5a12fe23-b7f9-41c9-8133-d2d0e8fdf1e2"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1014565",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "8363e28c-7c97-47c5-83b8-640c181759c8"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1018181",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "5755ba43-9490-412c-9fef-7f2fb1970808"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080187",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "6ab8c523-fb9d-4fcc-8d39-2c82dce04ed6"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080174",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "17b8c073-2d0c-4335-a7fc-d08bd0a425aa"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080214",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "19728df5-83e4-4ca8-a633-95e5f151435f"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080208",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "36d454ed-72c6-441a-8fe3-1132f1214997"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1014129",
+                "variantValueName": null
+            }
+        },
+        {
+            "type": "MODIFIER",
+            "externalId": {
+                "menuObjectId": "81a21840-2b23-40c2-b8df-47a1d6b5c039"
+            },
+            "internalId": {
+                "menuObjectId": "unused",
+                "variationId": "unused"
+            },
+            "productId": {
+                "regionId": "e9ac2038-ddac-4778-9afa-2f4756dd7f96",
+                "dynamicsId": "MD1080210",
+                "variantValueName": null
+            }
+        }
+    ]
+}'
